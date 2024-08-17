@@ -1,0 +1,20 @@
+# Stack Thickness Configurations
+- The folder `stack_0` is the basic configuration of the experiments, used as training/testing dataset. 
+- Folders `stack_1` to `stack_8` are configurations for analyzing the effect of different stacks on GNN-SP, used as training/- testing dataset. 
+- Folders `stack_comp` are 4 configurations for totally new stacks unseen by GNN-SP.
+- Thickness of each stack is described as follows: 4 metals are included, each metal includes the thickness of dielectric above, metal and dielectric below. Thus, totally 12 numbers. The dielectric setting is the same as the paper. 
+- Following are the detailed thickness configurations of stacks (unit: um): 
+- `stack_0`: 1.5 1.5 1.5 1.5 1.5 1.5 1.5 1.5 1.5 1.5 1.5 1.5
+- `stack_1`: 1.9 1.9 1.9 1.9 1.9 1.9 1.9 1.9 1.9 1.9 1.9 1.9
+- `stack_2`: 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1
+- `stack_3`: 1.5 1.5 1.5 1.1 1.1 1.1 1.5 1.5 1.5 1.1 1.1 1.1
+- `stack_4`: 1.9 1.9 1.9 1.5 1.5 1.5 1.9 1.9 1.9 1.5 1.5 1.5
+- `stack_5`: 1.1 1.1 1.1 1.5 1.5 1.5 1.1 1.1 1.1 1.5 1.5 1.5
+- `stack_6`: 1.3 1.3 1.3 1.3 1.3 1.3 1.3 1.3 1.3 1.3 1.3 1.3
+- `stack_7`: 1.7 1.7 1.7 1.7 1.7 1.7 1.7 1.7 1.7 1.7 1.7 1.7
+- `stack_8`: 1.5 1.5 1.5 1.9 1.9 1.9 1.5 1.5 1.5 1.9 1.9 1.9
+- `stack_comp`:
+  - `v9`:  1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2
+  - `v10`: 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8 1.8
+  - `v11`: 1.1 1.1 1.1 1.5 1.5 1.5 1.9 1.9 1.9 1.5 1.5 1.5
+  - `v12`: 1.5 1.5 1.5 1.1 1.1 1.1 1.1 1.1 1.1 1.9 1.9 1.9
