@@ -1,6 +1,6 @@
 # Chiplet Interconnect SI Dataset
 This is the chiplet interconnect SI dataset described in the paper:  
-GNN-SP: Fast S-Parameter Estimation of Chiplet Interconnect via Graph Neural Network  
+******（第一作者）, ``******'', 2024, IEEE Transactions on Components, Packaging and Manufacturing Technology (TCPMT), SCI.
 Description of each folder is shown below:  
 1. example_ads_project  
    This folder includes an example project to simulate chiplet UCIe interconnects in `layout` folder using the Agilent Advanced Design System (ADS) Momentum simulator based on the Method of Moments (MoM). The simulating frequency ranges from 0GHz to 60GHz with 1GHz step size. 
@@ -21,4 +21,4 @@ Description of each folder is shown below:
          - In each other port will start with line `px 122`, e.g. `p17 122` means the other port id is `17` and have `122/2=61` frequency points.
          - The following line of each other port will be magnitude(dB) and phase(degree) of S-parameters of each frequency. The first 61 elements are magnitude(dB) and the last 61 elements are phase(degree).  
 
-The document of this dataset will keep updating to offer more details, if you have any questions, please contact: <21112020054@m.fudan.edu.cn>
+The document of this dataset will keep updating to offer more details, if you have any questions, please contact: <******>
