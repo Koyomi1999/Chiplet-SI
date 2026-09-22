@@ -21,7 +21,7 @@ Description of each folder is shown below:
          - In each other port will start with line `px 122`, e.g. `p17 122` means the other port id is `17` and have `122/2=61` frequency points.
          - The following line of each other port will be magnitude(dB) and phase(degree) of S-parameters of each frequency. The first 61 elements are magnitude(dB) and the last 61 elements are phase(degree).  
 
-The document of this dataset will keep updating to offer more details, if you have any questions, please contact: <21112020054@m.fudan.edu.cn>
+The document of this dataset will keep updating to offer more details, if you have any questions, please contact: <koyomiking@gmail.com>
 
 ## License
 
